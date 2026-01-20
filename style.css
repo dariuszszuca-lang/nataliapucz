@@ -152,13 +152,13 @@ a {
 }
 
 .nav-logo img {
-    height: 100px;
+    height: 120px;
     width: auto;
     transition: all var(--transition-base);
 }
 
 .nav.scrolled .nav-logo img {
-    height: 70px;
+    height: 80px;
 }
 
 .nav-links {
@@ -1130,6 +1130,12 @@ a {
     gap: 1.5rem;
 }
 
+.contact-grid-2 {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 700px;
+    margin: 0 auto;
+}
+
 .contact-card {
     display: flex;
     flex-direction: column;
@@ -1199,7 +1205,7 @@ a {
 }
 
 .footer-logo {
-    height: 60px;
+    height: 80px;
     width: auto;
     margin-bottom: 1rem;
     display: block;
@@ -1431,11 +1437,11 @@ a {
     }
 
     .nav-logo img {
-        height: 80px;
+        height: 100px;
     }
 
     .nav.scrolled .nav-logo img {
-        height: 55px;
+        height: 70px;
     }
 
     .hero-container {
@@ -1513,15 +1519,19 @@ a {
     }
 
     .nav-logo img {
-        height: 70px;
+        height: 80px;
     }
 
     .nav.scrolled .nav-logo img {
-        height: 50px;
+        height: 60px;
     }
 
     .nav-toggle {
         display: flex;
+    }
+
+    .contact-grid-2 {
+        grid-template-columns: 1fr;
     }
 
     .nav-toggle.active span:nth-child(1) {
