@@ -125,11 +125,11 @@ function animateCounter(element, start, end, duration, suffix) {
 
 // ===== MOBILE MENU =====
 const navToggle = document.getElementById('navToggle');
-const navLinks = document.querySelector('.nav-links');
+const navMenu = document.querySelector('.nav-menu');
 
 if (navToggle) {
     navToggle.addEventListener('click', () => {
-        navLinks.classList.toggle('active');
+        navMenu.classList.toggle('active');
         navToggle.classList.toggle('active');
     });
 }
