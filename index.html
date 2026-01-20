@@ -23,83 +23,95 @@
 
     <!-- NAVIGATION -->
     <nav class="nav" id="nav">
-        <a href="#" class="nav-logo">
-            <img src="assets/logo-natalia.jpg" alt="Natalia Pucz">
-        </a>
-        <div class="nav-menu">
-            <div class="nav-links">
+        <div class="nav-container">
+            <div class="nav-links nav-links-left">
                 <a href="#o-mnie" class="nav-link">O mnie</a>
                 <a href="#specjalizacja" class="nav-link">Specjalizacja</a>
-                <a href="#konsultacje" class="nav-link">Konsultacje</a>
             </div>
-            <a href="#kontakt" class="nav-cta">
-                <span>Kontakt</span>
+
+            <a href="#" class="nav-logo">
+                <img src="assets/logo-beztla.png" alt="Natalia Pucz">
             </a>
+
+            <div class="nav-links nav-links-right">
+                <a href="#konsultacje" class="nav-link">Konsultacje</a>
+                <a href="#kontakt" class="nav-link">Kontakt</a>
+            </div>
         </div>
+
         <button class="nav-toggle" id="navToggle" aria-label="Menu">
             <span></span>
             <span></span>
             <span></span>
         </button>
+
+        <div class="nav-mobile" id="navMobile">
+            <a href="#o-mnie" class="nav-link">O mnie</a>
+            <a href="#specjalizacja" class="nav-link">Specjalizacja</a>
+            <a href="#konsultacje" class="nav-link">Konsultacje</a>
+            <a href="#kontakt" class="nav-link">Kontakt</a>
+        </div>
     </nav>
 
     <!-- HERO -->
     <header class="hero">
         <div class="hero-bg">
             <div class="hero-gradient"></div>
-            <div class="hero-shapes">
-                <div class="shape shape-1"></div>
-                <div class="shape shape-2"></div>
-                <div class="shape shape-3"></div>
-            </div>
+            <div class="hero-pattern"></div>
         </div>
 
         <div class="hero-container">
-            <div class="hero-visual animate-fade-up">
-                <div class="hero-image-wrapper">
-                    <div class="hero-image-glow"></div>
-                    <img src="assets/natalia-placeholder.svg" alt="Natalia Pucz" class="hero-image">
-                </div>
-            </div>
-
             <div class="hero-content">
-                <div class="hero-badge animate-fade-up delay-1">
+                <div class="hero-badge animate-fade-up">
                     <span class="badge-dot"></span>
-                    Dostępna na konsultacje
+                    Certyfikowany Instruktor Terapii Uzależnień
                 </div>
 
-                <h1 class="hero-title animate-fade-up delay-2">
-                    Terapeutka<br>
-                    <span class="title-accent">Uzależnień</span>
+                <h1 class="hero-title animate-fade-up delay-1">
+                    <span class="hero-name">Natalia Pucz</span>
+                    <span class="hero-role">Terapeutka <em>Uzależnień</em></span>
                 </h1>
 
-                <p class="hero-description animate-fade-up delay-3">
-                    Pomagam osobom uzależnionym i ich bliskim odnaleźć drogę do
-                    zdrowszego życia. <strong>Specjalizuję się we współuzależnieniu</strong>
-                    i wsparciu dla rodzin.
+                <p class="hero-description animate-fade-up delay-2">
+                    Pomagam osobom uzależnionym i ich bliskim odnaleźć drogę do zdrowszego życia.
+                    <strong>Specjalizuję się we współuzależnieniu</strong> — wsparciu dla rodzin i partnerów.
                 </p>
 
-                <div class="hero-stats animate-fade-up delay-3">
-                    <div class="hero-stat">
-                        <span class="hero-stat-number">4+</span>
-                        <span class="hero-stat-label">lata doświadczenia</span>
-                    </div>
-                    <div class="hero-stat">
-                        <span class="hero-stat-number">200+</span>
-                        <span class="hero-stat-label">przeprowadzonych terapii</span>
-                    </div>
-                </div>
-
-                <div class="hero-actions animate-fade-up delay-4">
-                    <a href="#konsultacje" class="btn btn-primary">
+                <div class="hero-actions animate-fade-up delay-3">
+                    <a href="#konsultacje" class="btn btn-primary btn-lg">
                         <span>Umów konsultację</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
                         <div class="btn-shine"></div>
                     </a>
-                    <a href="#o-mnie" class="btn btn-ghost">
-                        <span>Poznaj moją historię</span>
+                    <a href="#o-mnie" class="btn btn-outline">
+                        <span>Poznaj mnie</span>
                     </a>
                 </div>
             </div>
+
+            <div class="hero-visual animate-fade-up delay-2">
+                <div class="hero-image-frame">
+                    <div class="hero-image-glow"></div>
+                    <img src="assets/natalia-placeholder.svg" alt="Natalia Pucz" class="hero-image">
+                    <div class="hero-image-ring"></div>
+                </div>
+
+                <div class="hero-floating-stats">
+                    <div class="floating-stat floating-stat-1">
+                        <span class="floating-stat-number">4+</span>
+                        <span class="floating-stat-label">lat doświadczenia</span>
+                    </div>
+                    <div class="floating-stat floating-stat-2">
+                        <span class="floating-stat-number">200+</span>
+                        <span class="floating-stat-label">terapii</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-scroll">
+            <span>Przewiń</span>
+            <div class="scroll-line"></div>
         </div>
     </header>
 
@@ -367,7 +379,7 @@
         <div class="footer-container">
             <div class="footer-main">
                 <div class="footer-brand">
-                    <img src="assets/logo-natalia.jpg" alt="Natalia Pucz" class="footer-logo">
+                    <img src="assets/logo-beztla.png" alt="Natalia Pucz" class="footer-logo">
                     <p>Terapeutka Uzależnień specjalizująca się we współuzależnieniu. Towarzyszę osobom w drodze do zdrowszego życia.</p>
                 </div>
 
