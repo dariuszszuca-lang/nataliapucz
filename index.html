@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natalia Pucz — Terapeutka Uzależnień</title>
+    <meta name="description" content="Natalia Pucz - Certyfikowana Terapeutka Uzależnień i specjalistka od współuzależnienia. Konsultacje indywidualne, wsparcie dla rodzin osób uzależnionych.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+</head>
+<body class="loading">
+    <!-- PRELOADER -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-logo">NP</div>
+            <div class="preloader-bar"></div>
+        </div>
+    </div>
+
+    <!-- NAVIGATION -->
+    <nav class="nav" id="nav">
+        <div class="nav-panel">
+            <a href="#" class="nav-logo">
+                <span class="logo-text">Natalia Pucz</span>
+            </a>
+            <div class="nav-links">
+                <a href="#o-mnie" class="nav-link">O mnie</a>
+                <a href="#specjalizacja" class="nav-link">Specjalizacja</a>
+                <a href="#konsultacje" class="nav-link">Konsultacje</a>
+            </div>
+            <a href="#kontakt" class="nav-cta">
+                <span>Kontakt</span>
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <header class="hero">
+        <div class="hero-bg">
+            <div class="hero-gradient"></div>
+            <div class="hero-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+        </div>
+
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge animate-fade-up">
+                    <span class="badge-dot"></span>
+                    Dostepna na konsultacje
+                </div>
+
+                <h1 class="hero-title animate-fade-up delay-1">
+                    <span class="title-line">Natalia</span>
+                    <span class="title-line title-accent">Pucz</span>
+                </h1>
+
+                <p class="hero-subtitle animate-fade-up delay-2">
+                    Terapeutka Uzaleznien
+                </p>
+
+                <p class="hero-description animate-fade-up delay-3">
+                    Pomagam osobom uzaleznionym i ich bliskim odnalezc droge do
+                    zdrowszego zycia. <strong>Specjalizuje sie we wspoluzaleznieniu</strong>
+                    i wsparciu dla rodzin.
+                </p>
+
+                <div class="hero-actions animate-fade-up delay-4">
+                    <a href="#konsultacje" class="btn btn-primary">
+                        <span>Umow konsultacje</span>
+                        <div class="btn-shine"></div>
+                    </a>
+                    <a href="#o-mnie" class="btn btn-ghost">
+                        <span>Poznaj moja historie</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-visual animate-fade-left delay-2">
+                <div class="hero-image-wrapper">
+                    <div class="hero-image-glow"></div>
+                    <div class="hero-image-ring"></div>
+                    <img src="assets/natalia-placeholder.svg" alt="Natalia Pucz" class="hero-image">
+                </div>
+
+                <div class="hero-floating-card card-experience">
+                    <div class="floating-card-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                    </div>
+                    <div class="floating-card-content">
+                        <span class="floating-card-number">4+</span>
+                        <span class="floating-card-label">lata doswiadczenia</span>
+                    </div>
+                </div>
+
+                <div class="hero-floating-card card-clients">
+                    <div class="floating-card-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                    </div>
+                    <div class="floating-card-content">
+                        <span class="floating-card-number">200+</span>
+                        <span class="floating-card-label">terapii</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- STATS -->
+    <section class="stats">
+        <div class="stats-container">
+            <div class="stat-item" data-count="4">
+                <span class="stat-number">0</span>
+                <span class="stat-label">lata doswiadczenia</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item" data-count="200" data-suffix="+">
+                <span class="stat-number">0</span>
+                <span class="stat-label">przeprowadzonych terapii</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item special">
+                <span class="stat-icon">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                </span>
+                <span class="stat-label">specjalistka wspoluzaleznienia</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="o-mnie" class="about">
+        <div class="about-container">
+            <div class="about-header">
+                <span class="section-tag animate-on-scroll">O mnie</span>
+                <h2 class="section-title animate-on-scroll">
+                    Rozumiem, przez co przechodzisz.<br>
+                    <span class="title-gradient">Sama to przezylam.</span>
+                </h2>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-content animate-on-scroll">
+                    <p class="about-lead">
+                        Jestem certyfikowana terapeutka uzaleznien, pracujaca
+                        od 2021 roku w Osrodku MyWay.
+                    </p>
+                    <p>
+                        Jestem w szczesliwym zwiazku z osoba uzalezniona, ktora jest
+                        trzezwa od 2018 roku. To osobiste doswiadczenie pomaga mi
+                        lepiej rozumiec zarowno uzaleznionych, jak i ich bliskich.
+                    </p>
+                    <p>
+                        Specjalizuje sie we <strong>wspoluzaleznieniu</strong> — pomagam
+                        rodzinom i partnerom osob uzaleznionych odnalezc siebie i zbudowac
+                        zdrowe granice.
+                    </p>
+
+                    <div class="credentials-grid">
+                        <div class="credential-card">
+                            <div class="credential-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+                            </div>
+                            <span>Certyfikowany Instruktor Terapii Uzaleznien</span>
+                        </div>
+                        <div class="credential-card">
+                            <div class="credential-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg>
+                            </div>
+                            <span>Studentka Psychologii Klinicznej, WSB Meritum</span>
+                        </div>
+                        <div class="credential-card">
+                            <div class="credential-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                            </div>
+                            <span>Specjalistka Terapii Grupowej</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-visual animate-on-scroll">
+                    <div class="about-quote-card">
+                        <div class="quote-mark">"</div>
+                        <blockquote>
+                            Moim celem jest nauczyc ludzi zycia pelnego wartosci
+                            i radosci na trzezwo.
+                        </blockquote>
+                        <div class="quote-author">
+                            <img src="assets/natalia-placeholder.svg" alt="Natalia Pucz">
+                            <div>
+                                <strong>Natalia Pucz</strong>
+                                <span>Terapeutka Uzaleznien</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SPECIALIZATION -->
+    <section id="specjalizacja" class="specialization">
+        <div class="specialization-container">
+            <div class="specialization-header">
+                <span class="section-tag animate-on-scroll">Specjalizacja</span>
+                <h2 class="section-title animate-on-scroll">
+                    W czym moge Ci <span class="title-gradient">pomoc</span>
+                </h2>
+            </div>
+
+            <div class="specialization-grid">
+                <div class="spec-card animate-on-scroll">
+                    <div class="spec-card-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                    </div>
+                    <h3>Wspoluzaleznienie</h3>
+                    <p>Wsparcie dla rodzin i partnerow osob uzaleznionych. Pomoc w budowaniu zdrowych granic i odzyskaniu siebie.</p>
+                </div>
+
+                <div class="spec-card animate-on-scroll">
+                    <div class="spec-card-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                    </div>
+                    <h3>Terapia Grupowa</h3>
+                    <p>Prowadzenie grup terapeutycznych dla osob w procesie zdrowienia. Sila wspolnoty i wzajemnego wsparcia.</p>
+                </div>
+
+                <div class="spec-card animate-on-scroll">
+                    <div class="spec-card-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
+                    </div>
+                    <h3>Terapia Indywidualna</h3>
+                    <p>Indywidualne konsultacje i wsparcie na drodze do trzezwosci. Bezpieczna przestrzen do pracy nad soba.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MYWAY -->
+    <section class="myway">
+        <div class="myway-container">
+            <div class="myway-content animate-on-scroll">
+                <span class="section-tag section-tag-light">Gdzie pracuje</span>
+                <h2 class="section-title section-title-light">
+                    Osrodek <span class="title-gradient-light">MyWay Kapino</span>
+                </h2>
+                <p class="myway-description">
+                    Od 2021 roku jestem czescia zespolu terapeutycznego w Prywatnym
+                    Osrodku Terapii Uzaleznien MyWay w Kapinie. To miejsce, gdzie
+                    towarzyszymy pacjentom w drodze do trzezwosci.
+                </p>
+                <a href="https://osrodek-myway.pl" target="_blank" class="btn btn-primary btn-lg">
+                    <span>Odwiedz strone osrodka</span>
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+                </a>
+            </div>
+            <div class="myway-visual animate-on-scroll">
+                <div class="myway-card">
+                    <div class="myway-card-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+                    </div>
+                    <h3>MyWay Kapino</h3>
+                    <p>Prywatny Osrodek Terapii Uzaleznien</p>
+                    <span class="myway-card-location">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                        ul. Wichrowe Wzgorza 21, Kapino
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONSULTATION -->
+    <section id="konsultacje" class="consultation">
+        <div class="consultation-container">
+            <div class="consultation-content animate-on-scroll">
+                <span class="section-tag">Konsultacje</span>
+                <h2 class="section-title">
+                    Indywidualne <span class="title-gradient">wsparcie</span>
+                </h2>
+                <p class="consultation-description">
+                    Oferuje konsultacje dla osob uzaleznionych oraz ich bliskich.
+                    Kazda rozmowa jest inna, bo kazda historia jest wyjatkowa.
+                </p>
+
+                <ul class="consultation-features">
+                    <li>
+                        <div class="feature-check">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                        </div>
+                        <span>Wsparcie dla osob uzaleznionych</span>
+                    </li>
+                    <li>
+                        <div class="feature-check">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                        </div>
+                        <span>Pomoc dla rodzin i bliskich (wspoluzaleznienie)</span>
+                    </li>
+                    <li>
+                        <div class="feature-check">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                        </div>
+                        <span>Bezpieczna, poufna atmosfera</span>
+                    </li>
+                    <li>
+                        <div class="feature-check">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                        </div>
+                        <span>Online lub stacjonarnie</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="consultation-card animate-on-scroll">
+                <div class="pricing-card">
+                    <div class="pricing-card-glow"></div>
+                    <div class="pricing-badge">Konsultacja</div>
+                    <div class="pricing-amount">
+                        <span class="currency">PLN</span>
+                        <span class="price">300</span>
+                        <span class="period">/ 60 min</span>
+                    </div>
+                    <p class="pricing-note">
+                        Jedna godzina indywidualnej rozmowy i wsparcia
+                    </p>
+                    <a href="#kontakt" class="btn btn-primary btn-full">
+                        <span>Umow konsultacje</span>
+                        <div class="btn-shine"></div>
+                    </a>
+                    <p class="pricing-guarantee">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                        Pelna poufnosc i dyskrecja
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="kontakt" class="contact">
+        <div class="contact-container">
+            <div class="contact-content animate-on-scroll">
+                <span class="section-tag section-tag-light">Kontakt</span>
+                <h2 class="section-title section-title-light">
+                    Pierwszy krok jest <span class="title-gradient-light">najtrudniejszy</span>
+                </h2>
+                <p class="contact-description">
+                    Nie musisz go stawiac sama/sam. Jesli szukasz wsparcia
+                    lub masz pytania — napisz do mnie.
+                </p>
+
+                <div class="contact-methods">
+                    <a href="mailto:natalia@osrodek-myway.pl" class="contact-method">
+                        <div class="contact-method-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                        </div>
+                        <div class="contact-method-info">
+                            <span class="contact-method-label">Email</span>
+                            <span class="contact-method-value">natalia@osrodek-myway.pl</span>
+                        </div>
+                    </a>
+                    <a href="https://osrodek-myway.pl/zapytaj-krystiana" target="_blank" class="contact-method">
+                        <div class="contact-method-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                        </div>
+                        <div class="contact-method-info">
+                            <span class="contact-method-label">Formularz</span>
+                            <span class="contact-method-value">Wyslij wiadomosc przez strone</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="contact-visual animate-on-scroll">
+                <div class="contact-card">
+                    <div class="contact-card-inner">
+                        <img src="assets/natalia-placeholder.svg" alt="Natalia Pucz" class="contact-card-image">
+                        <h3>Natalia Pucz</h3>
+                        <p>Terapeutka Uzaleznien</p>
+                        <div class="contact-card-links">
+                            <a href="https://www.facebook.com/natalia.pucz" target="_blank" aria-label="Facebook">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                            </a>
+                            <a href="https://osrodek-myway.pl" target="_blank" aria-label="MyWay">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <span class="footer-logo">Natalia Pucz</span>
+                    <p>Terapeutka Uzaleznien specjalizujaca sie we wspoluzaleznieniu. Towarzyszac osobom w drodze do zdrowszego zycia.</p>
+                </div>
+
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Linki</h4>
+                        <a href="https://osrodek-myway.pl" target="_blank">Osrodek MyWay</a>
+                        <a href="https://edu-myway.pl" target="_blank">EduMyWay</a>
+                        <a href="https://krystiannagaba.pl" target="_blank">Krystian Nagaba</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Kontakt</h4>
+                        <a href="mailto:natalia@osrodek-myway.pl">natalia@osrodek-myway.pl</a>
+                        <a href="https://www.facebook.com/natalia.pucz" target="_blank">Facebook</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Natalia Pucz. Wszelkie prawa zastrzerone.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- COOKIE BANNER -->
+    <div class="cookie-banner" id="cookieBanner">
+        <div class="cookie-content">
+            <div class="cookie-header">
+                <h3>Ustawienia prywatnosci</h3>
+                <button class="cookie-close" id="cookieClose" aria-label="Zamknij">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+                </button>
+            </div>
+            <p class="cookie-text">
+                Ta strona urywa plikow cookies, aby zapewnic najlepsze doswiadczenie uytkownika.
+            </p>
+
+            <div class="cookie-actions">
+                <button class="cookie-btn cookie-btn-reject" id="cookieReject">Odrzuc</button>
+                <button class="cookie-btn cookie-btn-accept" id="cookieAccept">Akceptuj</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- COOKIE ICON -->
+    <button class="cookie-icon" id="cookieIcon" aria-label="Ustawienia cookies">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="10"/>
+            <circle cx="8" cy="9" r="1.5" fill="currentColor"/>
+            <circle cx="15" cy="8" r="1" fill="currentColor"/>
+            <circle cx="10" cy="14" r="1" fill="currentColor"/>
+            <circle cx="16" cy="13" r="1.5" fill="currentColor"/>
+            <circle cx="13" cy="17" r="1" fill="currentColor"/>
+        </svg>
+    </button>
+
+    <!-- STICKY BOTTOM BAR -->
+    <div class="bottom-bar" id="bottomBar">
+        <div class="bottom-bar-container">
+            <div class="bottom-bar-text">
+                <span class="bottom-bar-title">Potrzebujesz wsparcia?</span>
+                <span class="bottom-bar-subtitle">Umow bezplatna konsultacje</span>
+            </div>
+            <a href="#kontakt" class="bottom-bar-btn" id="bottomBarBtn">
+                <span>Skontaktuj sie</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
